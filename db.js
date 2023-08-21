@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 mongoose.set('strictQuery', false);
 
-const DATABASE_URL = "mongodb+srv://amritsinha:sinha3696@cluster0.vbkvyw4.mongodb.net/?retryWrites=true&w=majority";
+const DATABASE_URL = "<Enter mongodb creds>";
 
 
 const connection=await mongoose.connect(DATABASE_URL)
